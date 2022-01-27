@@ -1,0 +1,99 @@
+<html>
+<title>Form</title>    
+<head>
+    <h2 align="center">Fill this up to order customised tshirts</h2>
+</head>
+<body style="background-color:powderblue;">
+<form>
+<table border="2" cellpadding="15">
+
+<tr>
+<td align="center" colspan="2"><b>Add T-shirt details-</b></td>
+</tr>    
+
+<tr>
+<td><strong>Tagline on the shirt:</strong></td>
+<td><input type="text" name="Tagline" maxlength="50" placeholder="hello" required/></td>
+</tr> 
+
+<tr>
+<td><strong>Quantity:</strong></td>
+<td><input type="number" name="quantity" maxlength="10" required/></td>
+</tr> 
+
+<tr>
+<td><strong>Color:</strong></td>
+<td><input type="text" name="color" maxlength="20" required/></td>
+</tr> 
+
+<tr>
+<td><strong>Size:</strong></td>
+<td>
+<input type="checkbox" name="Size" value="S"/>Small
+<input type="checkbox" name="Size" value="M" />Medium
+<input type="checkbox" name="Size" value="L" />Large
+<input type="checkbox" name="Size" value="XL" />XL
+</td>
+</tr>
+
+<tr>
+<td><strong>Material:</strong></td>
+<td>
+<input type="radio" name="material" value="Cotton" />Cotton
+<input type="radio" name="material" value="Polyester" />Polyester
+</td>
+</tr> 
+
+<tr>
+<td><strong>Logo:</strong></td>
+<td>
+<select name="Logo" id="logo">
+<option value=" ">Choose a brand logo</option>
+<option value="Nike">Nike</option>
+<option value="Puma">Puma</option>
+<option value="Addidas">Addidas</option>
+<option value="None">None</option>
+</select>
+</td>
+</tr> 
+
+<tr>
+<td align="center" colspan="2"><b>Add shipping details-</b></td>   
+</tr>
+
+<tr>
+<td><strong>Shipping address:</strong></td>
+<td><textarea name="address" rows="8" cols="170"  maxlength="50" required></textarea></td>
+</tr> 
+
+<tr>
+<td><strong>Phone number:</strong></td>
+<td><input type="text" name="phone number" maxlength="50" required/></td>
+</tr> 
+
+<tr>
+<td><strong>Email-id:</strong></td>
+<td><input type="Email-id" name="email-id" maxlength="50" required/></td>
+</tr> 
+
+<tr>
+<td><strong>Date of delievery:</strong></td>    
+<td><input type="date" id="delievery_date" name="delievery_date" required></td>
+</tr>
+
+
+<!--<tr>
+<td align="center"><input type="submit" value="Submit">
+</td>
+</tr>-->
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
